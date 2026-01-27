@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .title__info {
   margin: 4rem auto 1.5rem;
   width: fit-content;
@@ -31,3 +32,38 @@
     font-size: 3.5rem;
   }
 }
+=======
+.title__info {
+  margin: 4rem auto 1.5rem;
+  width: fit-content;
+  font-family: var(--font-Bebas);
+  font-weight: 600;
+  font-size: 2.5rem;
+  border-bottom: 2px solid var(--text-color);
+}
+
+@media (min-width: 576px) {
+  .title__info {
+    margin: 7rem auto 2.5rem;
+    font-size: 2.7rem;
+  }
+}
+@media (min-width: 768px) {
+  .title__info {
+    margin: 7rem auto 2.5rem;
+    font-size: 2.7rem;
+  }
+}
+@media (min-width: 992px) {
+  .title__info {
+    margin: 8rem auto 2.5rem;
+    font-size: 3.2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .title__info {
+    margin: 5rem auto 2.5rem;
+    font-size: 3.5rem;
+  }
+}
+>>>>>>> 2161a7b79cea051ad36a02e03cfe9cf39589a8ec
