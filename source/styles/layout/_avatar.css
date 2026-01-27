@@ -1,0 +1,66 @@
+.avatar__holder {
+  position: absolute;
+  top: -6rem;
+  left: 4%;
+}
+.avatar {
+  border-radius: 100%;
+  width: 38%;
+}
+
+/* media screen */
+
+@media (min-width: 450px) {
+  .avatar__holder {
+    left: -15%;
+    top: -9rem;
+  }
+
+  .avatar {
+    width: 55%;
+  }
+}
+
+@media (min-width: 576px) {
+  .avatar__holder {
+    left: 6%;
+    top: -9rem;
+  }
+
+  .avatar {
+    width: 58%;
+  }
+}
+
+@media (min-width: 768px) {
+  .avatar__holder {
+    left: 7%;
+    top: -12rem;
+  }
+
+  .avatar {
+    width: 67%;
+  }
+}
+
+@media (min-width: 992px) {
+  .avatar__holder {
+    left: 7%;
+    top: -16rem;
+  }
+
+  .avatar {
+    width: 84%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .avatar__holder {
+    left: 6%;
+    top: -20rem;
+  }
+
+  .avatar {
+    width: 90%;
+  }
+}
