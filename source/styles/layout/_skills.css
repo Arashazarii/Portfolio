@@ -1,0 +1,150 @@
+.skill__logo:hover {
+  transform: scale(0.9);
+}
+.skill__logo {
+  width: 13rem;
+  border-radius: 1.5rem;
+  transition: all 200ms ease-in;
+  border: 1rem solid transparent;
+}
+
+.html .skill__logo:hover {
+  border: 1rem solid var(--html-color);
+}
+.css .skill__logo:hover {
+  border: 1rem solid var(--css-color);
+}
+.javascript .skill__logo:hover {
+  border: 1rem solid var(--js-color);
+}
+.tailwind .skill__logo:hover {
+  border: 1rem solid var(--tailwind-color);
+}
+.figma .skill__logo:hover {
+  border: 1rem solid var(--figma-color);
+}
+.git .skill__logo:hover {
+  border: 1rem solid var(--git-color);
+}
+.github .skill__logo:hover {
+  border: 1rem solid var(--github-color);
+}
+
+/* course percent color */
+
+.skill__percent {
+  width: 30%; /* 80%*/
+  height: 2.5rem;
+  margin: 0 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  color: var(--bg-color);
+}
+.html__color {
+  width: 80%;
+  background-color: var(--html-color);
+  font-family: var(--font-Bebas);
+  font-size: 2.5rem;
+  line-height: 2.8rem;
+}
+.css__color {
+  width: 70%;
+  background-color: var(--css-color);
+  font-family: var(--font-Bebas);
+  font-size: 2.5rem;
+  line-height: 2.8rem;
+}
+.javascript__color {
+  width: 50%;
+  background-color: var(--js-color);
+  font-family: var(--font-Bebas);
+  font-size: 2.5rem;
+  line-height: 2.8rem;
+}
+.tailwind__color {
+  width: 40%;
+  background-color: var(--tailwind-color);
+  font-family: var(--font-Bebas);
+  font-size: 2.5rem;
+  line-height: 2.8rem;
+}
+.figma__color {
+  width: 40%;
+  background-color: var(--figma-color);
+  font-family: var(--font-Bebas);
+  font-size: 2.5rem;
+  line-height: 2.8rem;
+}
+.git__color {
+  width: 30%;
+  background-color: var(--git-color);
+  font-family: var(--font-Bebas);
+  font-size: 2.5rem;
+  line-height: 2.8rem;
+}
+.github__color {
+  width: 60%;
+  background-color: var(--github-color);
+  font-family: var(--font-Bebas);
+  font-size: 2.5rem;
+  line-height: 2.8rem;
+}
+
+.flag__logo {
+  width: 13rem;
+  border-radius: 1.5rem;
+  transition: all 200ms ease-in;
+  border: 1rem solid transparent;
+}
+
+.german {
+  margin-top: -0.7rem;
+}
+
+.english__color {
+  width: 50%;
+  background-color: var(--english-color);
+  font-family: var(--font-Bebas);
+  font-size: 2.5rem;
+  line-height: 2.8rem;
+}
+
+.german__color {
+  width: 30%;
+  background-color: var(--germany-color);
+  font-family: var(--font-Bebas);
+  font-size: 2.5rem;
+  line-height: 2.8rem;
+}
+
+/* media screen */
+
+@media (min-width: 380px) {
+  .html__color {
+    width: 90%;
+  }
+  .css__color {
+    width: 80%;
+  }
+  .javascript__color {
+    width: 60%;
+  }
+  .tailwind__color {
+    width: 50%;
+  }
+  .figma__color {
+    width: 50%;
+  }
+  .git__color {
+    width: 40%;
+  }
+  .github__color {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .figma .skill__logo {
+    width: 15rem;
+  }
+}
