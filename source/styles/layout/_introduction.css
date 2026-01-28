@@ -11,7 +11,7 @@
 .userJob {
   font-family: var(--font-Archivo);
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .info__section {
   display: flex;
@@ -88,6 +88,14 @@
 }
 
 /* media screen */
+
+@media (min-width: 380px) {
+  .firstname,
+  .lastname,
+  .userJob {
+    font-size: 1.5rem;
+  }
+}
 
 @media (min-width: 576px) {
   .socials {
