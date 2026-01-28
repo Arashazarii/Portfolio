@@ -65,7 +65,7 @@ Media queries are used to ensure proper layout and readability on all devices.
 ## ▶ How to Run
 You can run this project in two simple ways:
 
-- 1. Open Terminal
+- 1.Open Terminal
 - 2.npm run dev
 
 
